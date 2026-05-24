@@ -15,7 +15,7 @@ export default function FAQPage() {
       <PageHero
         breadcrumb={[{ label: "FAQ" }]}
         heading="Frequently Asked Questions"
-        subheading="Everything you need to know about screen repair in Nairobi — before you bring in your device."
+        subheading="Everything you need to know about screen repair in Kisii — before you bring in your device."
         ctaLabel="Still Have a Question?"
         ctaMessage="Hi Phillips ScreenCare, I have a question about screen repair"
       />

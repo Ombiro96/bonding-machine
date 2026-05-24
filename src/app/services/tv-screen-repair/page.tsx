@@ -3,9 +3,9 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "TV Screen Repair Nairobi Kenya | Fix My TV Screen | Phillips ScreenCare",
+  title: "TV Screen Repair Kisii Kenya | Fix My TV Screen | Phillips ScreenCare",
   description:
-    "Repair my TV in Nairobi Kenya. Samsung, LG, Sony, Hisense, TCL TV screen repair. Fix cracked TV screen, lines on screen, no picture. 90-day warranty. WhatsApp for a quote.",
+    "Repair my TV in Kisii Kenya. Samsung, LG, Sony, Hisense, TCL TV screen repair. Fix cracked TV screen, lines on screen, no picture. 90-day warranty. WhatsApp for a quote.",
 };
 
 const TV_BRANDS = [
@@ -33,8 +33,8 @@ export default function TvScreenRepairPage() {
     <>
       <PageHero
         breadcrumb={[{ label: "Services", href: "/services" }, { label: "TV Screen Repair" }]}
-        heading="TV Screen Repair in Nairobi, Kenya"
-        subheading="Repair my TV in Nairobi — cracked panels, lines on screen, dark patches, no picture. We fix Samsung, LG, Sony, Hisense and TCL televisions with a 90-day warranty."
+        heading="TV Screen Repair in Kisii, Kenya"
+        subheading="Repair my TV in Kisii — cracked panels, lines on screen, dark patches, no picture. We fix Samsung, LG, Sony, Hisense and TCL televisions with a 90-day warranty."
         ctaLabel="Get TV Repair Quote"
         ctaMessage="Hi Phillips ScreenCare, I need a TV screen repair"
       />
@@ -43,17 +43,17 @@ export default function TvScreenRepairPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-3xl">
             <h2 className="mb-6 text-2xl font-bold text-slate-900">
-              Fix My TV Screen in Nairobi
+              Fix My TV Screen in Kisii
             </h2>
             <div className="space-y-4 leading-relaxed text-slate-600">
               <p>
                 Need to <strong>repair my TV in Kenya</strong> or{" "}
                 <strong>fix my TV screen</strong>? Phillips ScreenCare provides professional television screen
-                repair and replacement in Nairobi. From cracked panels to mysterious lines and dark
+                repair and replacement in Kisii. From cracked panels to mysterious lines and dark
                 patches — we diagnose and fix it properly.
               </p>
               <p>
-                We are Nairobi&rsquo;s specialists in <strong>television repair</strong> covering all
+                We are Kisii&rsquo;s specialists in <strong>television repair</strong> covering all
                 the most popular brands sold in Kenya. Whether you have a budget Hisense,
                 a mid-range Samsung Smart TV, or a premium LG OLED, we source the correct panel and
                 install it professionally.
@@ -90,7 +90,7 @@ export default function TvScreenRepairPage() {
       <section className="bg-white py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <h2 className="mb-8 text-center text-2xl font-bold text-slate-900">
-            TV Brands We Repair in Nairobi
+            TV Brands We Repair in Kisii
           </h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {TV_BRANDS.map((brand) => (
@@ -109,7 +109,7 @@ export default function TvScreenRepairPage() {
       <section className="bg-slate-50 py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-3xl">
-            <h2 className="mb-6 text-2xl font-bold text-slate-900">TV Repair Pricing in Nairobi</h2>
+            <h2 className="mb-6 text-2xl font-bold text-slate-900">TV Repair Pricing in Kisii</h2>
             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
               <p className="text-slate-600">
                 TV screen repair pricing depends on the screen size, panel type (LED, QLED, OLED), and

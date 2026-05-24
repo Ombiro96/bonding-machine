@@ -8,9 +8,9 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "Phillips ScreenCare — Laptop & TV Screen Repair in Nairobi, Kenya",
+  title: "Phillips ScreenCare — Laptop & TV Screen Repair in Kisii, Kenya",
   description:
-    "Professional laptop and TV screen repair in Nairobi. OCA bonding technology. Same-day laptop repairs, 90-day warranty. Call or WhatsApp for a free quote.",
+    "Professional laptop and TV screen repair in Kisii. OCA bonding technology. Same-day laptop repairs, 90-day warranty. Call or WhatsApp for a free quote.",
 };
 
 export default function HomePage() {

@@ -2,7 +2,7 @@ export const SITE = {
   name: "Phillips ScreenCare",
   tagline: "Laptop & TV Screen Repair Experts.",
   description:
-    "Professional laptop and TV screen repair in Nairobi, Kenya using Shenzhen ST-B100W OCA bonding technology. Same-day service with a 90-day warranty.",
+    "Professional laptop and TV screen repair in Kisii, Kenya using Shenzhen ST-B100W OCA bonding technology. Same-day service with a 90-day warranty.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://bondfix.co.ke",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "254722631353",
   phone: "0722631353",

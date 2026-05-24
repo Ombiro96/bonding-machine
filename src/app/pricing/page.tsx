@@ -4,9 +4,9 @@ import { Pricing } from "@/components/sections/pricing";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "Screen Repair Pricing Nairobi | Phone Screen Repair Price Kenya",
+  title: "Screen Repair Pricing Kisii | Phone Screen Repair Price Kenya",
   description:
-    "Transparent screen repair pricing in Nairobi, Kenya. Phone screen repair from KSh 800, laptops from KSh 4,000. No hidden fees. WhatsApp for an exact quote.",
+    "Transparent screen repair pricing in Kisii, Kenya. Phone screen repair from KSh 800, laptops from KSh 4,000. No hidden fees. WhatsApp for an exact quote.",
 };
 
 const FAQ_PRICING = [

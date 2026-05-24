@@ -3,9 +3,9 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ContactForm } from "@/components/sections/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact Phillips ScreenCare | Screen Repair in Nairobi, Kenya",
+  title: "Contact Phillips ScreenCare | Screen Repair in Kisii, Kenya",
   description:
-    "Contact Phillips ScreenCare for laptop or TV screen repair in Nairobi. Send us a photo of the damage and get a quote. Walk-ins welcome Mon–Sat, 8am–6pm.",
+    "Contact Phillips ScreenCare for laptop or TV screen repair in Kisii. Send us a photo of the damage and get a quote. Walk-ins welcome Mon–Sat, 8am–6pm.",
 };
 
 export default function ContactPage() {

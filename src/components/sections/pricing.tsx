@@ -23,7 +23,7 @@ const PRICE_TIERS = [
   {
     device: "📺 TV — Small (32\"–43\")",
     examples: "Hisense, Syinix, Vitron, TCL",
-    price: "From KSh 5,000",
+    price: "From KSh 2,500",
     turnaround: "1–2 days",
   },
   {

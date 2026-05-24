@@ -20,18 +20,18 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = buildPageMetadata({
   title: {
-    default: "Phillips ScreenCare — Laptop & TV Screen Repair in Nairobi, Kenya",
+    default: "Phillips ScreenCare — Laptop & TV Screen Repair in Kisii, Kenya",
     template: "%s | Phillips ScreenCare",
   },
   description:
-    "Professional laptop and TV screen repair in Nairobi. OCA bonding technology. Same-day laptop repairs, 90-day warranty. Call or WhatsApp for a free quote.",
+    "Professional laptop and TV screen repair in Kisii. OCA bonding technology. Same-day laptop repairs, 90-day warranty. Call or WhatsApp for a free quote.",
 });
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "Phillips ScreenCare",
-  description: "Professional laptop and TV screen bonding and repair in Nairobi, Kenya",
+  description: "Professional laptop and TV screen bonding and repair in Kisii, Kenya",
   url: "https://bondfix.co.ke",
   telephone: "+254722631353",
   email: "repairs@bondfix.co.ke",

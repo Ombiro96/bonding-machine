@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     q: "Do you offer pick-up or delivery?",
-    a: "Currently we offer walk-in repair at our Nairobi location. WhatsApp us if you need to discuss courier or home-visit arrangements for large TVs.",
+    a: "Currently we offer walk-in repair at our Kisii location. WhatsApp us if you need to discuss courier or home-visit arrangements for large TVs.",
   },
   {
     q: "What payment methods do you accept?",

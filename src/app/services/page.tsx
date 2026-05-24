@@ -4,9 +4,9 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "Laptop & TV Screen Repair Services in Nairobi, Kenya | Phillips ScreenCare",
+  title: "Laptop & TV Screen Repair Services in Kisii, Kenya | Phillips ScreenCare",
   description:
-    "Professional laptop and TV screen repair in Nairobi, Kenya. OCA bonding technology. Same-day laptop repairs, 90-day warranty on all work.",
+    "Professional laptop and TV screen repair in Kisii, Kenya. OCA bonding technology. Same-day laptop repairs, 90-day warranty on all work.",
 };
 
 const SERVICES = [
@@ -42,7 +42,7 @@ export default function ServicesPage() {
     <>
       <PageHero
         breadcrumb={[{ label: "Services" }]}
-        heading="Laptop & TV Screen Repair in Nairobi"
+        heading="Laptop & TV Screen Repair in Kisii"
         subheading="Professional screen repair using OCA bonding technology. Same-day laptop repairs and expert TV panel replacement — all with a 90-day warranty."
       />
 

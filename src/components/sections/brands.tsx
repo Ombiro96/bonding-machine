@@ -17,7 +17,7 @@ export function Brands() {
             Brands We Repair
           </h2>
           <p className="mt-2 text-slate-500">
-            All major laptop and TV brands covered in Nairobi.
+            All major laptop and TV brands covered in Kisii.
           </p>
         </div>
 

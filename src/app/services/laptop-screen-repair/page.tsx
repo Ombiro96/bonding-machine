@@ -3,9 +3,9 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "Laptop Screen Repair Nairobi Kenya | Fix My Laptop Screen | Phillips ScreenCare",
+  title: "Laptop Screen Repair Kisii Kenya | Fix My Laptop Screen | Phillips ScreenCare",
   description:
-    "Repair my laptop screen in Nairobi, Kenya. Same-day laptop display replacement for Dell, HP, Lenovo, Asus, Acer, MacBook. 90-day warranty. WhatsApp for a free quote.",
+    "Repair my laptop screen in Kisii, Kenya. Same-day laptop display replacement for Dell, HP, Lenovo, Asus, Acer, MacBook. 90-day warranty. WhatsApp for a free quote.",
 };
 
 const BRANDS = [
@@ -33,7 +33,7 @@ export default function LaptopScreenRepairPage() {
     <>
       <PageHero
         breadcrumb={[{ label: "Services", href: "/services" }, { label: "Laptop Screen Repair" }]}
-        heading="Laptop Screen Repair in Nairobi, Kenya"
+        heading="Laptop Screen Repair in Kisii, Kenya"
         subheading="Fix your laptop screen same-day. We source and replace display panels for Dell, HP, Lenovo, Asus, Acer and MacBook — professional repair with a 90-day warranty."
         ctaLabel="Get Laptop Repair Quote"
         ctaMessage="Hi Phillips ScreenCare, I need a laptop screen repair"
@@ -43,17 +43,17 @@ export default function LaptopScreenRepairPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-3xl">
             <h2 className="mb-6 text-2xl font-bold text-slate-900">
-              Repair My Laptop Screen in Nairobi
+              Repair My Laptop Screen in Kisii
             </h2>
             <div className="space-y-4 leading-relaxed text-slate-600">
               <p>
                 Looking to <strong>repair my laptop in Kenya</strong> or{" "}
                 <strong>fix my laptop screen</strong>? Phillips ScreenCare provides professional laptop display
-                replacement in Nairobi. Whether your screen is cracked from a drop, shows vertical lines,
+                replacement in Kisii. Whether your screen is cracked from a drop, shows vertical lines,
                 or has dead pixels, we diagnose and repair it the same day.
               </p>
               <p>
-                We perform <strong>laptop display replacement in Nairobi</strong> for all major brands
+                We perform <strong>laptop display replacement in Kisii</strong> for all major brands
                 using OEM-grade or high-quality compatible panels. Our technicians are experienced with
                 both standard and high-resolution displays, including Full HD, 4K, OLED and Retina panels.
               </p>
@@ -114,7 +114,7 @@ export default function LaptopScreenRepairPage() {
             </h2>
             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
               <p className="text-slate-600">
-                Laptop screen replacement in Nairobi starts from{" "}
+                Laptop screen replacement in Kisii starts from{" "}
                 <strong className="text-blue-600">KSh 1,500</strong> depending on your laptop model and
                 the display panel required. High-resolution and OLED panels may cost more. We confirm
                 the exact price before any work begins.
