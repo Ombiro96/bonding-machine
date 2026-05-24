@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { Pricing } from "@/components/sections/pricing";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
   title: "Screen Repair Pricing Kisii | Phone Screen Repair Price Kenya",
@@ -57,7 +56,6 @@ export default function PricingPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi Phillips ScreenCare, I'd like a screen repair price quote" />
     </>
   );
 }

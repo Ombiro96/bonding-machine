@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "@/components/sections/page-hero";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
   title: "Laptop & TV Screen Repair Services in Kisii, Kenya | Phillips ScreenCare",
@@ -97,7 +96,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip />
     </>
   );
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
 import { FAQ } from "@/components/sections/faq";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
   title: "Screen Repair FAQ Kenya | Common Questions Answered | Phillips ScreenCare",
@@ -22,7 +21,6 @@ export default function FAQPage() {
 
       <FAQ />
 
-      <ServiceCtaStrip message="Hi Phillips ScreenCare, I have a question about screen repair" />
     </>
   );
 }

@@ -5,7 +5,6 @@ import { WhyChooseUs } from "@/components/sections/why-choose-us";
 import { Brands } from "@/components/sections/brands";
 import { Coverage } from "@/components/sections/coverage";
 import { Testimonials } from "@/components/sections/testimonials";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
   title: "Phillips ScreenCare — Laptop & TV Screen Repair in Kisii, Kenya",
@@ -22,7 +21,6 @@ export default function HomePage() {
       <Brands />
       <Coverage />
       <Testimonials />
-      <ServiceCtaStrip />
     </>
   );
 }

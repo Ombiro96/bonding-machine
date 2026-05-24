@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 import { whatsappUrl, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -262,7 +261,6 @@ export default function LaptopRepairPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi Phillips ScreenCare, I need a laptop screen repair" />
     </>
   );
 }

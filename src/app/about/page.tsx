@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { PageHero } from "@/components/sections/page-hero";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
   title: "About Phillips ScreenCare | OCA Screen Repair Experts in Kisii",
@@ -122,7 +121,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip />
     </>
   );
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/sections/page-hero";
-import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
   title: "Laptop Screen Repair Kisii Kenya | Fix My Laptop Screen | Phillips ScreenCare",
@@ -138,7 +137,6 @@ export default function LaptopScreenRepairPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi Phillips ScreenCare, I need a laptop screen repair" />
     </>
   );
 }
