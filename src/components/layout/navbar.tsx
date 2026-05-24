@@ -5,8 +5,8 @@ import { useState } from "react";
 import { SITE, whatsappUrl } from "@/lib/site";
 
 const SERVICE_LINKS = [
-  { label: "Laptop Screen Repair", href: "/services/laptop-screen-repair" },
-  { label: "TV Screen Repair", href: "/services/tv-screen-repair" },
+  { label: "Laptop Screen Repair", href: "/laptop-repair" },
+  { label: "TV Screen Repair", href: "/tv-repair" },
 ];
 
 const NAV_LINKS = [
@@ -21,9 +21,9 @@ export function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-900">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="text-xl font-bold tracking-tight text-blue-600">
+        <Link href="/" className="text-xl font-bold tracking-tight text-white">
           {SITE.name}
         </Link>
 
@@ -35,7 +35,7 @@ export function Navbar() {
           >
             <Link
               href="/services"
-              className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:text-blue-600"
+              className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-slate-300 transition-colors hover:text-white"
             >
               Services
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
@@ -43,12 +43,12 @@ export function Navbar() {
               </svg>
             </Link>
             {servicesOpen && (
-              <div className="absolute top-full left-0 z-50 mt-1 w-56 rounded-xl border border-slate-100 bg-white py-2 shadow-lg">
+              <div className="absolute top-full left-0 z-50 mt-1 w-56 rounded-xl border border-slate-700 bg-slate-800 py-2 shadow-lg">
                 {SERVICE_LINKS.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block px-4 py-2.5 text-sm text-slate-600 transition-colors hover:bg-blue-50 hover:text-blue-600"
+                    className="block px-4 py-2.5 text-sm text-slate-300 transition-colors hover:bg-slate-700 hover:text-white"
                   >
                     {link.label}
                   </Link>
@@ -61,7 +61,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:text-blue-600"
+              className="rounded-md px-3 py-2 text-sm font-medium text-slate-300 transition-colors hover:text-white"
             >
               {link.label}
             </Link>
@@ -72,14 +72,14 @@ export function Navbar() {
           href={whatsappUrl("Hi BondFix, I need a screen repair")}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden rounded-full bg-blue-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700 md:inline-flex"
+          className="hidden rounded-full bg-blue-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-500 md:inline-flex"
         >
           Book Repair
         </a>
 
         <button
           type="button"
-          className="rounded-md p-2 text-slate-600 md:hidden"
+          className="rounded-md p-2 text-slate-400 md:hidden"
           aria-label="Toggle menu"
           onClick={() => setOpen(!open)}
         >
@@ -94,12 +94,12 @@ export function Navbar() {
       </div>
 
       {open && (
-        <div className="border-t border-slate-200 bg-white px-4 pb-4 md:hidden">
+        <div className="border-t border-slate-800 bg-slate-900 px-4 pb-4 md:hidden">
           <nav className="flex flex-col gap-1 pt-3">
             <div>
               <button
                 type="button"
-                className="flex w-full items-center justify-between rounded-md px-2 py-2.5 text-base font-medium text-slate-700"
+                className="flex w-full items-center justify-between rounded-md px-2 py-2.5 text-base font-medium text-slate-300"
                 onClick={() => setServicesOpen(!servicesOpen)}
               >
                 <span>Services</span>
@@ -120,7 +120,7 @@ export function Navbar() {
                       key={link.href}
                       href={link.href}
                       onClick={() => { setOpen(false); setServicesOpen(false); }}
-                      className="rounded-md px-2 py-2 text-sm text-slate-600 hover:text-blue-600"
+                      className="rounded-md px-2 py-2 text-sm text-slate-400 hover:text-white"
                     >
                       {link.label}
                     </Link>
@@ -134,7 +134,7 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-2 py-2.5 text-base font-medium text-slate-700 hover:text-blue-600"
+                className="rounded-md px-2 py-2.5 text-base font-medium text-slate-300 hover:text-white"
               >
                 {link.label}
               </Link>
