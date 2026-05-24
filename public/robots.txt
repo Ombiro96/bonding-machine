@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bondfix.co.ke
+
+# Sitemaps
+Sitemap: https://bondfix.co.ke/sitemap.xml

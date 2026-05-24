@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background circle -->
+  <rect width="32" height="32" rx="8" fill="#2563EB"/>
+  <!-- Lightning bolt (speed/repair symbol) -->
+  <path d="M18.5 4L10 18h7.5L13.5 28L22 14h-7.5L18.5 4Z" fill="white"/>
+</svg>
