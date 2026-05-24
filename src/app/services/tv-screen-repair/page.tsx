@@ -3,7 +3,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "TV Screen Repair Nairobi Kenya | Fix My TV Screen | BondFix",
+  title: "TV Screen Repair Nairobi Kenya | Fix My TV Screen | Phillips ScreenCare",
   description:
     "Repair my TV in Nairobi Kenya. Samsung, LG, Sony, Hisense, TCL TV screen repair. Fix cracked TV screen, lines on screen, no picture. 90-day warranty. WhatsApp for a quote.",
 };
@@ -36,7 +36,7 @@ export default function TvScreenRepairPage() {
         heading="TV Screen Repair in Nairobi, Kenya"
         subheading="Repair my TV in Nairobi — cracked panels, lines on screen, dark patches, no picture. We fix Samsung, LG, Sony, Hisense and TCL televisions with a 90-day warranty."
         ctaLabel="Get TV Repair Quote"
-        ctaMessage="Hi BondFix, I need a TV screen repair"
+        ctaMessage="Hi Phillips ScreenCare, I need a TV screen repair"
       />
 
       <section className="bg-white py-16">
@@ -48,7 +48,7 @@ export default function TvScreenRepairPage() {
             <div className="space-y-4 leading-relaxed text-slate-600">
               <p>
                 Need to <strong>repair my TV in Kenya</strong> or{" "}
-                <strong>fix my TV screen</strong>? BondFix provides professional television screen
+                <strong>fix my TV screen</strong>? Phillips ScreenCare provides professional television screen
                 repair and replacement in Nairobi. From cracked panels to mysterious lines and dark
                 patches — we diagnose and fix it properly.
               </p>
@@ -60,7 +60,7 @@ export default function TvScreenRepairPage() {
               </p>
               <p>
                 <strong>Smart TV repair in Kenya</strong> is one of our growing specialties. Modern
-                smart TVs are expensive — a screen repair at BondFix typically costs a fraction of
+                smart TVs are expensive — a screen repair at Phillips ScreenCare typically costs a fraction of
                 buying a new television, and our 90-day warranty gives you confidence in the repair.
               </p>
             </div>
@@ -134,7 +134,7 @@ export default function TvScreenRepairPage() {
               </p>
               <div className="mt-6">
                 <a
-                  href="https://wa.me/254722631353?text=Hi%20BondFix%2C%20I%20need%20a%20TV%20screen%20repair%20quote"
+                  href="https://wa.me/254722631353?text=Hi%20Phillips ScreenCare%2C%20I%20need%20a%20TV%20screen%20repair%20quote"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white shadow transition hover:bg-blue-700"
@@ -147,7 +147,7 @@ export default function TvScreenRepairPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi BondFix, I need a TV screen repair" />
+      <ServiceCtaStrip message="Hi Phillips ScreenCare, I need a TV screen repair" />
     </>
   );
 }

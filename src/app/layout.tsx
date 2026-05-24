@@ -20,8 +20,8 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = buildPageMetadata({
   title: {
-    default: "BondFix — Laptop & TV Screen Repair in Nairobi, Kenya",
-    template: "%s | BondFix",
+    default: "Phillips ScreenCare — Laptop & TV Screen Repair in Nairobi, Kenya",
+    template: "%s | Phillips ScreenCare",
   },
   description:
     "Professional laptop and TV screen repair in Nairobi. OCA bonding technology. Same-day laptop repairs, 90-day warranty. Call or WhatsApp for a free quote.",
@@ -30,7 +30,7 @@ export const metadata: Metadata = buildPageMetadata({
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "BondFix",
+  name: "Phillips ScreenCare",
   description: "Professional laptop and TV screen bonding and repair in Nairobi, Kenya",
   url: "https://bondfix.co.ke",
   telephone: "+254722631353",

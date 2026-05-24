@@ -19,7 +19,7 @@ export function PageHero({
   heading,
   subheading,
   ctaLabel = "Get a Free Quote",
-  ctaMessage = "Hi BondFix, I need a screen repair",
+  ctaMessage = "Hi Phillips ScreenCare, I need a screen repair",
 }: PageHeroProps) {
   return (
     <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 py-14 sm:py-20">

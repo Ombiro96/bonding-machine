@@ -58,7 +58,7 @@ export function Brands() {
         <p className="mt-8 text-center text-sm text-slate-400">
           Don&rsquo;t see your brand?{" "}
           <a
-            href={whatsappUrl("Hi BondFix, I have a screen repair for a different brand")}
+            href={whatsappUrl("Hi Phillips ScreenCare, I have a screen repair for a different brand")}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline underline-offset-2 hover:text-blue-700"

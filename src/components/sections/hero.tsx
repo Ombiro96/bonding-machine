@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { SITE, whatsappUrl } from "@/lib/site";
 
@@ -68,7 +67,7 @@ export function Hero() {
               <span className="font-semibold text-white">&ldquo;Near Me&rdquo;</span>
               ?{" "}
               <a
-                href={whatsappUrl("Hi BondFix, I need a screen repair near me")}
+                href={whatsappUrl("Hi Phillips ScreenCare, I need a screen repair near me")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline underline-offset-2 hover:text-white"
@@ -78,29 +77,18 @@ export function Hero() {
             </p>
           </div>
 
-          {/* ── Right: machine image ── */}
+          {/* ── Right: video ── */}
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-sm overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10 sm:max-w-md">
-              {/* Card header bar */}
-              <div className="flex items-center gap-2 bg-blue-700 px-4 py-2.5">
-                <div className="flex gap-1.5">
-                  <span className="h-2.5 w-2.5 rounded-full bg-red-400 opacity-80" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-amber-400 opacity-80" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-green-400 opacity-80" />
-                </div>
-                <span className="ml-1 text-xs font-semibold tracking-wide text-blue-100">
-                  BondFix · ST-B100W OCA Machine
-                </span>
+              <div className="aspect-video w-full">
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube.com/embed/shQPvVF-ME8?autoplay=1&mute=1&loop=1&playlist=shQPvVF-ME8&controls=0&rel=0&modestbranding=1"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="Phillips ScreenCare — Screen Repair"
+                />
               </div>
-              <Image
-                src="/images/bonding-machine.jpg"
-                alt="Shenzhen ST-B100W OCA bonding machine used for professional screen repair in Kisii"
-                width={800}
-                height={600}
-                className="w-full object-cover"
-                priority
-                sizes="(max-width: 768px) 90vw, (max-width: 1200px) 45vw, 480px"
-              />
             </div>
           </div>
 

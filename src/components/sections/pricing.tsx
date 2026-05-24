@@ -4,7 +4,7 @@ const PRICE_TIERS = [
   {
     device: "💻 Laptop — Budget",
     examples: "Acer, older Toshiba, entry-level HP/Lenovo",
-    price: "From KSh 4,000",
+    price: "From KSh 1,500",
     turnaround: "Same day",
   },
   {
@@ -80,7 +80,7 @@ export function Pricing() {
         <p className="mt-6 text-center text-sm text-slate-400">
           Prices vary by model, panel type, and damage extent.{" "}
           <a
-            href={whatsappUrl("Hi BondFix! Can I get a screen repair quote?")}
+            href={whatsappUrl("Hi Phillips ScreenCare! Can I get a screen repair quote?")}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline underline-offset-2 hover:text-blue-700"

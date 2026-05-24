@@ -4,9 +4,9 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "About BondFix | OCA Screen Repair Experts in Nairobi",
+  title: "About Phillips ScreenCare | OCA Screen Repair Experts in Nairobi",
   description:
-    "Learn about BondFix — Nairobi's professional LCD screen bonding and repair specialists. We use the Shenzhen ST-B100W OCA bonding machine for factory-quality results.",
+    "Learn about Phillips ScreenCare — Nairobi's professional LCD screen bonding and repair specialists. We use the Shenzhen ST-B100W OCA bonding machine for factory-quality results.",
 };
 
 const WHY_OCA = [
@@ -40,10 +40,10 @@ export default function AboutPage() {
     <>
       <PageHero
         breadcrumb={[{ label: "About" }]}
-        heading="About BondFix"
+        heading="About Phillips ScreenCare"
         subheading="Nairobi's laptop and TV screen repair specialists. We use the Shenzhen ST-B100W OCA bonding machine — the same technology used by professional repair shops worldwide."
         ctaLabel="Book a Repair"
-        ctaMessage="Hi BondFix, I'd like to book a screen repair"
+        ctaMessage="Hi Phillips ScreenCare, I'd like to book a screen repair"
       />
 
       <section className="bg-white py-16">
@@ -53,7 +53,7 @@ export default function AboutPage() {
               <h2 className="mb-5 text-2xl font-bold text-slate-900">Our Story</h2>
               <div className="space-y-4 leading-relaxed text-slate-600">
                 <p>
-                  BondFix was founded by repair technicians frustrated by one reality in Nairobi&rsquo;s
+                  Phillips ScreenCare was founded by repair technicians frustrated by one reality in Nairobi&rsquo;s
                   screen repair market: most shops replace the entire LCD assembly when only the outer
                   glass is broken. Customers pay two or three times more than they need to — and often
                   get lower quality results.
@@ -65,7 +65,7 @@ export default function AboutPage() {
                   zero air bubbles, matching or exceeding the original display quality.
                 </p>
                 <p>
-                  Today BondFix repairs hundreds of devices a month across Nairobi — laptop displays
+                  Today Phillips ScreenCare repairs hundreds of devices a month across Nairobi — laptop displays
                   and TV panels — all using the same professional approach and the same commitment to
                   honest pricing and lasting results.
                 </p>
@@ -74,7 +74,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-3xl bg-slate-100 shadow-lg">
               <Image
                 src="/images/bonding-machine.jpg"
-                alt="Shenzhen ST-B100W OCA bonding machine at BondFix Nairobi"
+                alt="Shenzhen ST-B100W OCA bonding machine at Phillips ScreenCare Nairobi"
                 width={800}
                 height={600}
                 className="w-full object-cover"

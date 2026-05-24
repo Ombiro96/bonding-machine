@@ -64,7 +64,7 @@ export function HowItWorks() {
 
         <div className="mt-12 text-center">
           <a
-            href={whatsappUrl("Hi BondFix! I have a cracked screen — can I get a quote?")}
+            href={whatsappUrl("Hi Phillips ScreenCare! I have a cracked screen — can I get a quote?")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-3.5 text-base font-semibold text-white shadow-lg transition hover:bg-blue-700"

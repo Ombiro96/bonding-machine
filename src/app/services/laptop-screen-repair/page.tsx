@@ -3,7 +3,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "Laptop Screen Repair Nairobi Kenya | Fix My Laptop Screen | BondFix",
+  title: "Laptop Screen Repair Nairobi Kenya | Fix My Laptop Screen | Phillips ScreenCare",
   description:
     "Repair my laptop screen in Nairobi, Kenya. Same-day laptop display replacement for Dell, HP, Lenovo, Asus, Acer, MacBook. 90-day warranty. WhatsApp for a free quote.",
 };
@@ -36,7 +36,7 @@ export default function LaptopScreenRepairPage() {
         heading="Laptop Screen Repair in Nairobi, Kenya"
         subheading="Fix your laptop screen same-day. We source and replace display panels for Dell, HP, Lenovo, Asus, Acer and MacBook — professional repair with a 90-day warranty."
         ctaLabel="Get Laptop Repair Quote"
-        ctaMessage="Hi BondFix, I need a laptop screen repair"
+        ctaMessage="Hi Phillips ScreenCare, I need a laptop screen repair"
       />
 
       <section className="bg-white py-16">
@@ -48,7 +48,7 @@ export default function LaptopScreenRepairPage() {
             <div className="space-y-4 leading-relaxed text-slate-600">
               <p>
                 Looking to <strong>repair my laptop in Kenya</strong> or{" "}
-                <strong>fix my laptop screen</strong>? BondFix provides professional laptop display
+                <strong>fix my laptop screen</strong>? Phillips ScreenCare provides professional laptop display
                 replacement in Nairobi. Whether your screen is cracked from a drop, shows vertical lines,
                 or has dead pixels, we diagnose and repair it the same day.
               </p>
@@ -115,7 +115,7 @@ export default function LaptopScreenRepairPage() {
             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
               <p className="text-slate-600">
                 Laptop screen replacement in Nairobi starts from{" "}
-                <strong className="text-blue-600">KSh 4,000</strong> depending on your laptop model and
+                <strong className="text-blue-600">KSh 1,500</strong> depending on your laptop model and
                 the display panel required. High-resolution and OLED panels may cost more. We confirm
                 the exact price before any work begins.
               </p>
@@ -125,7 +125,7 @@ export default function LaptopScreenRepairPage() {
               </p>
               <div className="mt-6">
                 <a
-                  href="https://wa.me/254722631353?text=Hi%20BondFix%2C%20I%20need%20a%20laptop%20screen%20repair%20quote"
+                  href="https://wa.me/254722631353?text=Hi%20Phillips ScreenCare%2C%20I%20need%20a%20laptop%20screen%20repair%20quote"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white shadow transition hover:bg-blue-700"
@@ -138,7 +138,7 @@ export default function LaptopScreenRepairPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi BondFix, I need a laptop screen repair" />
+      <ServiceCtaStrip message="Hi Phillips ScreenCare, I need a laptop screen repair" />
     </>
   );
 }

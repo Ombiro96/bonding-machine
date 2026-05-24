@@ -5,7 +5,7 @@ interface ServiceCtaStripProps {
 }
 
 export function ServiceCtaStrip({
-  message = "Hi BondFix, I'd like to book a screen repair",
+  message = "Hi Phillips ScreenCare, I'd like to book a screen repair",
 }: ServiceCtaStripProps) {
   return (
     <section className="bg-blue-600 py-10">

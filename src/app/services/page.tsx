@@ -4,7 +4,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 
 export const metadata: Metadata = {
-  title: "Laptop & TV Screen Repair Services in Nairobi, Kenya | BondFix",
+  title: "Laptop & TV Screen Repair Services in Nairobi, Kenya | Phillips ScreenCare",
   description:
     "Professional laptop and TV screen repair in Nairobi, Kenya. OCA bonding technology. Same-day laptop repairs, 90-day warranty on all work.",
 };
@@ -82,7 +82,7 @@ export default function ServicesPage() {
       <section className="bg-slate-50 py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <h2 className="mb-8 text-center text-2xl font-bold text-slate-900">
-            Why Choose BondFix?
+            Why Choose Phillips ScreenCare?
           </h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {TRUST_SIGNALS.map((signal) => (

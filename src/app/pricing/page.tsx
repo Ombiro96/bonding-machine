@@ -36,7 +36,7 @@ export default function PricingPage() {
         heading="Transparent Screen Repair Pricing"
         subheading="Phone screen repair from KSh 800. Laptops from KSh 4,000. No hidden fees — exact quote confirmed before any work begins."
         ctaLabel="Get an Exact Quote"
-        ctaMessage="Hi BondFix, I'd like a screen repair price quote"
+        ctaMessage="Hi Phillips ScreenCare, I'd like a screen repair price quote"
       />
 
       <Pricing />
@@ -57,7 +57,7 @@ export default function PricingPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi BondFix, I'd like a screen repair price quote" />
+      <ServiceCtaStrip message="Hi Phillips ScreenCare, I'd like a screen repair price quote" />
     </>
   );
 }

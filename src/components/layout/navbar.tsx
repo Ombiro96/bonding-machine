@@ -69,7 +69,7 @@ export function Navbar() {
         </nav>
 
         <a
-          href={whatsappUrl("Hi BondFix, I need a screen repair")}
+          href={whatsappUrl("Hi Phillips ScreenCare, I need a screen repair")}
           target="_blank"
           rel="noopener noreferrer"
           className="hidden rounded-full bg-blue-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-500 md:inline-flex"
@@ -141,7 +141,7 @@ export function Navbar() {
             ))}
 
             <a
-              href={whatsappUrl("Hi BondFix, I need a screen repair")}
+              href={whatsappUrl("Hi Phillips ScreenCare, I need a screen repair")}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 rounded-full bg-blue-600 px-5 py-2.5 text-center text-sm font-semibold text-white"

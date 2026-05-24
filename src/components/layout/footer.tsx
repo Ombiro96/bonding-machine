@@ -37,7 +37,7 @@ export function Footer() {
             </p>
             <div className="mt-5 flex flex-col gap-2 text-sm">
               <a
-                href={whatsappUrl("Hi BondFix, I need a screen repair")}
+                href={whatsappUrl("Hi Phillips ScreenCare, I need a screen repair")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 font-medium text-green-400 transition-colors hover:text-green-300"

@@ -43,7 +43,7 @@ export function WhyChooseUs() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Why Choose BondFix?
+            Why Choose Phillips ScreenCare?
           </h2>
           <p className="mt-3 text-lg text-slate-400">
             Professional-grade repair, not a backroom gamble.

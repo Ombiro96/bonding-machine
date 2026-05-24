@@ -3,7 +3,7 @@ const TESTIMONIALS = [
     name: "James N.",
     device: "Lenovo ThinkPad",
     quote:
-      "The laptop screen had cracked lines across it. BondFix sourced and bonded a replacement panel same-day. Works perfectly.",
+      "The laptop screen had cracked lines across it. Phillips ScreenCare sourced and bonded a replacement panel same-day. Works perfectly.",
     rating: 5,
   },
   {
@@ -17,7 +17,7 @@ const TESTIMONIALS = [
     name: "Peter K.",
     device: "LG 55\" Smart TV",
     quote:
-      "Thought my LG TV was done for after the screen cracked. BondFix sourced the right panel and it looks brand new. Saved me buying a new TV entirely.",
+      "Thought my LG TV was done for after the screen cracked. Phillips ScreenCare sourced the right panel and it looks brand new. Saved me buying a new TV entirely.",
     rating: 5,
   },
   {
@@ -31,7 +31,7 @@ const TESTIMONIALS = [
     name: "Michael O.",
     device: "Hisense 43\" TV",
     quote:
-      "My Hisense had vertical lines across the whole screen. BondFix fixed it in two days with a warranty. Professional from start to finish.",
+      "My Hisense had vertical lines across the whole screen. Phillips ScreenCare fixed it in two days with a warranty. Professional from start to finish.",
     rating: 5,
   },
   {

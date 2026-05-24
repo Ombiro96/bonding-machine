@@ -28,7 +28,7 @@ export function TopBar() {
             {SITE.email}
           </a>
           <a
-            href={whatsappUrl("Hi BondFix, I need a screen repair")}
+            href={whatsappUrl("Hi Phillips ScreenCare, I need a screen repair")}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 font-medium text-green-400 transition-colors hover:text-green-300"

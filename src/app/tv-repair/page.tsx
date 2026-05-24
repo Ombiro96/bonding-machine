@@ -4,7 +4,7 @@ import { ServiceCtaStrip } from "@/components/sections/service-cta-strip";
 import { whatsappUrl, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "TV Screen Repair in Kisii, Kenya — Fix My TV | BondFix",
+  title: "TV Screen Repair in Kisii, Kenya — Fix My TV | Phillips ScreenCare",
   description:
     "Repair your TV screen in Kisii, Kenya. Cracked panel, lines on screen, dark patches, no picture — we fix Samsung, LG, Sony, Hisense and more. 90-day warranty. Call or WhatsApp.",
 };
@@ -57,7 +57,7 @@ const TESTIMONIALS = [
   {
     name: "Peter K.",
     device: "LG 55\" Smart TV",
-    quote: "Thought my LG was done for after the screen cracked. BondFix sourced the right panel and it looks brand new. Saved me buying a whole new TV.",
+    quote: "Thought my LG was done for after the screen cracked. Phillips ScreenCare sourced the right panel and it looks brand new. Saved me buying a whole new TV.",
   },
   {
     name: "Michael O.",
@@ -67,7 +67,7 @@ const TESTIMONIALS = [
   {
     name: "Joyce A.",
     device: "Samsung 50\" Smart TV",
-    quote: "I was quoted double elsewhere. BondFix was honest about the price upfront and did a perfect job. Highly recommend.",
+    quote: "I was quoted double elsewhere. Phillips ScreenCare was honest about the price upfront and did a perfect job. Highly recommend.",
   },
 ];
 
@@ -120,7 +120,7 @@ export default function TvRepairPage() {
                   Call {SITE.phone}
                 </a>
                 <a
-                  href={whatsappUrl("Hi BondFix, I need a TV screen repair quote")}
+                  href={whatsappUrl("Hi Phillips ScreenCare, I need a TV screen repair quote")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
@@ -133,7 +133,7 @@ export default function TvRepairPage() {
                 * Looking for TV Repair{" "}
                 <span className="font-semibold text-white">&ldquo;Near Me&rdquo;</span>?{" "}
                 <a
-                  href={whatsappUrl("Hi BondFix, I need TV screen repair near me in Kisii")}
+                  href={whatsappUrl("Hi Phillips ScreenCare, I need TV screen repair near me in Kisii")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline underline-offset-2 hover:text-white"
@@ -143,49 +143,17 @@ export default function TvRepairPage() {
               </p>
             </div>
 
-            {/* Right: TV icon card */}
+            {/* Right: video */}
             <div className="flex justify-center lg:justify-end">
-              <div className="w-full max-w-sm overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 shadow-2xl backdrop-blur-sm sm:max-w-md">
-                {/* Cracked TV screen illustration */}
-                <svg viewBox="0 0 320 248" className="w-full h-auto mb-3" aria-hidden="true">
-                  <rect x="8" y="8" width="304" height="200" rx="10" fill="#0f172a" stroke="#334155" strokeWidth="2"/>
-                  <rect x="20" y="20" width="280" height="176" fill="#020617"/>
-                  <circle cx="228" cy="88" r="26" fill="#f59e0b" opacity="0.1"/>
-                  {/* Primary cracks */}
-                  <line x1="228" y1="88" x2="20" y2="20" stroke="white" strokeWidth="1.5" opacity="0.85"/>
-                  <line x1="228" y1="88" x2="300" y2="20" stroke="white" strokeWidth="1.5" opacity="0.9"/>
-                  <line x1="228" y1="88" x2="300" y2="196" stroke="white" strokeWidth="1.3" opacity="0.8"/>
-                  <line x1="228" y1="88" x2="20" y2="196" stroke="white" strokeWidth="1" opacity="0.7"/>
-                  <line x1="228" y1="88" x2="20" y2="100" stroke="white" strokeWidth="1" opacity="0.7"/>
-                  <line x1="228" y1="88" x2="300" y2="148" stroke="white" strokeWidth="0.9" opacity="0.65"/>
-                  <line x1="228" y1="88" x2="178" y2="196" stroke="white" strokeWidth="1.3" opacity="0.8"/>
-                  {/* Secondary cracks */}
-                  <line x1="122" y1="52" x2="85" y2="20" stroke="white" strokeWidth="0.8" opacity="0.5"/>
-                  <line x1="122" y1="52" x2="50" y2="72" stroke="white" strokeWidth="0.7" opacity="0.45"/>
-                  <line x1="272" y1="52" x2="295" y2="32" stroke="white" strokeWidth="0.9" opacity="0.55"/>
-                  <line x1="272" y1="128" x2="292" y2="196" stroke="white" strokeWidth="0.7" opacity="0.45"/>
-                  <line x1="100" y1="148" x2="48" y2="196" stroke="white" strokeWidth="0.7" opacity="0.4"/>
-                  <line x1="100" y1="148" x2="20" y2="162" stroke="white" strokeWidth="0.7" opacity="0.4"/>
-                  <line x1="202" y1="152" x2="158" y2="196" stroke="white" strokeWidth="0.8" opacity="0.5"/>
-                  {/* Impact point */}
-                  <circle cx="228" cy="88" r="4" fill="white" opacity="0.95"/>
-                  {/* TV stand */}
-                  <rect x="128" y="208" width="64" height="24" rx="4" fill="#0f172a" stroke="#334155" strokeWidth="1.5"/>
-                  <rect x="98" y="228" width="124" height="12" rx="6" fill="#0f172a" stroke="#334155" strokeWidth="1.5"/>
-                  {/* Power LED */}
-                  <circle cx="296" cy="202" r="3" fill="#22c55e" opacity="0.7"/>
-                </svg>
-                <div className="space-y-3">
-                  {["Cracked panel replacement", "Lines & dark patch repair", "Smart TV screen repair", "All sizes 32\" to 85\"", "90-day warranty included"].map((item) => (
-                    <div key={item} className="flex items-center gap-3 text-sm text-blue-100">
-                      <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-green-500/20 text-xs text-green-400">✓</span>
-                      {item}
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-6 rounded-xl bg-white/10 px-4 py-3 text-center">
-                  <p className="text-xs text-blue-200">TV repairs from</p>
-                  <p className="text-2xl font-extrabold text-amber-400">KSh 5,000</p>
+              <div className="w-full max-w-sm overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10 sm:max-w-md">
+                <div className="aspect-video w-full">
+                  <iframe
+                    className="h-full w-full"
+                    src="https://www.youtube.com/embed/shQPvVF-ME8?autoplay=1&mute=1&loop=1&playlist=shQPvVF-ME8&controls=0&rel=0&modestbranding=1"
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    title="Phillips ScreenCare — Screen Repair"
+                  />
                 </div>
               </div>
             </div>
@@ -256,7 +224,7 @@ export default function TvRepairPage() {
             ))}
           </div>
           <p className="mt-6 text-center text-sm text-slate-400">
-            <a href={whatsappUrl("Hi BondFix, I need a TV screen repair price")} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-2 hover:text-blue-700">
+            <a href={whatsappUrl("Hi Phillips ScreenCare, I need a TV screen repair price")} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-2 hover:text-blue-700">
               WhatsApp us your TV model for an exact quote →
             </a>
           </p>
@@ -294,7 +262,7 @@ export default function TvRepairPage() {
         </div>
       </section>
 
-      <ServiceCtaStrip message="Hi BondFix, I need a TV screen repair" />
+      <ServiceCtaStrip message="Hi Phillips ScreenCare, I need a TV screen repair" />
     </>
   );
 }
