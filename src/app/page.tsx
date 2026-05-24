@@ -22,13 +22,13 @@ export default function HomePage() {
       <Brands />
       <Coverage />
       <Testimonials />
-      <section className="bg-slate-900 py-16 sm:py-20">
+      <section className="bg-blue-50 py-16 sm:py-20">
         <div className="mx-auto max-w-2xl px-4 sm:px-6">
           <div className="mb-10 text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
               Get a Repair Quote
             </h2>
-            <p className="mt-3 text-slate-400">
+            <p className="mt-3 text-slate-500">
               Send us a photo of the damage and we&rsquo;ll get back to you with a price.
             </p>
           </div>

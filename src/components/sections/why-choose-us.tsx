@@ -39,13 +39,13 @@ const REASONS = [
 
 export function WhyChooseUs() {
   return (
-    <section className="bg-slate-900 py-20 sm:py-24">
+    <section className="bg-blue-50 py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
             Why Choose Phillips ScreenCare?
           </h2>
-          <p className="mt-3 text-lg text-slate-400">
+          <p className="mt-3 text-lg text-slate-500">
             Professional-grade repair, not a backroom gamble.
           </p>
         </div>
@@ -54,11 +54,11 @@ export function WhyChooseUs() {
           {REASONS.map((reason) => (
             <div
               key={reason.title}
-              className="rounded-2xl border border-slate-700 bg-slate-800 p-6"
+              className="rounded-2xl border border-slate-200 bg-white p-6"
             >
               <div className="mb-3 text-3xl">{reason.icon}</div>
-              <h3 className="mb-2 text-base font-semibold text-white">{reason.title}</h3>
-              <p className="text-sm leading-relaxed text-slate-400">{reason.description}</p>
+              <h3 className="mb-2 text-base font-semibold text-slate-900">{reason.title}</h3>
+              <p className="text-sm leading-relaxed text-slate-600">{reason.description}</p>
             </div>
           ))}
         </div>

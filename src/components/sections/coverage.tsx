@@ -24,13 +24,13 @@ const COVERAGE_TILES = [
 
 export function Coverage() {
   return (
-    <section className="bg-slate-900 py-14 sm:py-18">
+    <section className="bg-blue-50 py-14 sm:py-18">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-8 text-center">
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
             Based in Kisii, Serving Western & Nyanza
           </h2>
-          <p className="mt-2 text-slate-400">
+          <p className="mt-2 text-slate-500">
             Walk in at our Kisii location or arrange courier repair from anywhere in Kenya.
           </p>
         </div>
@@ -40,15 +40,15 @@ export function Coverage() {
               key={tile.area}
               className={`rounded-2xl border p-6 shadow-sm ${
                 tile.highlight
-                  ? "border-blue-500/40 bg-blue-900/30"
-                  : "border-slate-700 bg-slate-800"
+                  ? "border-blue-300 bg-blue-100"
+                  : "border-slate-200 bg-white"
               }`}
             >
               <div className="mb-3 text-3xl">{tile.icon}</div>
-              <h3 className={`mb-1 text-base font-semibold ${tile.highlight ? "text-blue-400" : "text-white"}`}>
+              <h3 className={`mb-1 text-base font-semibold ${tile.highlight ? "text-blue-700" : "text-slate-900"}`}>
                 {tile.area}
               </h3>
-              <p className="text-sm leading-relaxed text-slate-400">{tile.detail}</p>
+              <p className="text-sm leading-relaxed text-slate-600">{tile.detail}</p>
             </div>
           ))}
         </div>

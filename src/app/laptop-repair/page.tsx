@@ -143,7 +143,7 @@ export default function LaptopRepairPage() {
             </div>
 
             {/* Right: video */}
-            <div className="flex justify-center lg:justify-end">
+            <div className="order-first flex justify-center lg:order-last lg:justify-end">
               <div className="w-full overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10">
                 <div className="aspect-video w-full">
                   <iframe
@@ -176,15 +176,15 @@ export default function LaptopRepairPage() {
       </section>
 
       {/* How it works */}
-      <section className="bg-slate-900 py-14">
+      <section className="bg-blue-50 py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <h2 className="mb-10 text-center text-2xl font-bold text-white">How Laptop Screen Repair Works</h2>
+          <h2 className="mb-10 text-center text-2xl font-bold text-slate-900">How Laptop Screen Repair Works</h2>
           <div className="grid gap-6 sm:grid-cols-3">
             {STEPS.map((s) => (
-              <div key={s.n} className="rounded-2xl border border-slate-700 bg-slate-800 p-6 shadow-sm">
-                <div className="mb-4 text-3xl font-extrabold text-slate-600">{s.n}</div>
-                <h3 className="mb-2 font-semibold text-white">{s.title}</h3>
-                <p className="text-sm leading-relaxed text-slate-400">{s.body}</p>
+              <div key={s.n} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <div className="mb-4 text-3xl font-extrabold text-slate-300">{s.n}</div>
+                <h3 className="mb-2 font-semibold text-slate-900">{s.title}</h3>
+                <p className="text-sm leading-relaxed text-slate-600">{s.body}</p>
               </div>
             ))}
           </div>
@@ -207,16 +207,16 @@ export default function LaptopRepairPage() {
       </section>
 
       {/* Pricing */}
-      <section className="bg-slate-900 py-14">
+      <section className="bg-blue-50 py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <h2 className="mb-2 text-center text-2xl font-bold text-white">Laptop Screen Repair Prices in Kisii</h2>
-          <p className="mb-8 text-center text-slate-400">Exact quote confirmed before we start — no surprises.</p>
+          <h2 className="mb-2 text-center text-2xl font-bold text-slate-900">Laptop Screen Repair Prices in Kisii</h2>
+          <p className="mb-8 text-center text-slate-500">Exact quote confirmed before we start — no surprises.</p>
           <div className="grid gap-5 sm:grid-cols-3">
             {PRICES.map((p) => (
-              <div key={p.tier} className={`rounded-2xl border p-6 shadow-sm ${p.popular ? "border-blue-400 bg-blue-50" : "border-slate-700 bg-slate-800"}`}>
+              <div key={p.tier} className={`rounded-2xl border p-6 shadow-sm ${p.popular ? "border-blue-500 bg-white" : "border-slate-200 bg-white"}`}>
                 {p.popular && <span className="mb-3 inline-block rounded-full bg-blue-600 px-3 py-0.5 text-xs font-semibold text-white">Most Common</span>}
-                <h3 className="font-semibold text-white">💻 {p.tier}</h3>
-                <p className="mt-1 text-sm text-slate-400">{p.examples}</p>
+                <h3 className="font-semibold text-slate-900">💻 {p.tier}</h3>
+                <p className="mt-1 text-sm text-slate-500">{p.examples}</p>
                 <p className="mt-4 text-2xl font-bold text-blue-600">{p.from}</p>
                 <p className="mt-1 text-xs text-slate-500">Turnaround: {p.days}</p>
               </div>
