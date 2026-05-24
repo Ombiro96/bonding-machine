@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { PageHero } from "@/components/sections/page-hero";
 import { Pricing } from "@/components/sections/pricing";
 
 export const metadata: Metadata = {
@@ -30,13 +29,6 @@ const FAQ_PRICING = [
 export default function PricingPage() {
   return (
     <>
-      <PageHero
-        breadcrumb={[{ label: "Pricing" }]}
-        heading="Transparent Screen Repair Pricing"
-        subheading="Phone screen repair from KSh 800. Laptops from KSh 4,000. No hidden fees — exact quote confirmed before any work begins."
-        ctaLabel="Get an Exact Quote"
-        ctaMessage="Hi Phillips ScreenCare, I'd like a screen repair price quote"
-      />
 
       <Pricing />
 

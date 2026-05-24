@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
   title: "TV Screen Repair Kisii Kenya | Fix My TV Screen | Phillips ScreenCare",
@@ -30,13 +29,6 @@ const TV_DAMAGE_TYPES = [
 export default function TvScreenRepairPage() {
   return (
     <>
-      <PageHero
-        breadcrumb={[{ label: "Services", href: "/services" }, { label: "TV Screen Repair" }]}
-        heading="TV Screen Repair in Kisii, Kenya"
-        subheading="Repair my TV in Kisii — cracked panels, lines on screen, dark patches, no picture. We fix Samsung, LG, Sony, Hisense and TCL televisions with a 90-day warranty."
-        ctaLabel="Get TV Repair Quote"
-        ctaMessage="Hi Phillips ScreenCare, I need a TV screen repair"
-      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

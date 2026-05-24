@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
   title: "Laptop Screen Repair Kisii Kenya | Fix My Laptop Screen | Phillips ScreenCare",
@@ -30,13 +29,6 @@ const DAMAGE_TYPES = [
 export default function LaptopScreenRepairPage() {
   return (
     <>
-      <PageHero
-        breadcrumb={[{ label: "Services", href: "/services" }, { label: "Laptop Screen Repair" }]}
-        heading="Laptop Screen Repair in Kisii, Kenya"
-        subheading="Fix your laptop screen same-day. We source and replace display panels for Dell, HP, Lenovo, Asus, Acer and MacBook — professional repair with a 90-day warranty."
-        ctaLabel="Get Laptop Repair Quote"
-        ctaMessage="Hi Phillips ScreenCare, I need a laptop screen repair"
-      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

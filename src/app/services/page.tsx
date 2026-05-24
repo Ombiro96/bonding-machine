@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
   title: "Laptop & TV Screen Repair Services in Kisii, Kenya | Phillips ScreenCare",
@@ -39,11 +38,6 @@ const TRUST_SIGNALS = [
 export default function ServicesPage() {
   return (
     <>
-      <PageHero
-        breadcrumb={[{ label: "Services" }]}
-        heading="Laptop & TV Screen Repair in Kisii"
-        subheading="Professional screen repair using OCA bonding technology. Same-day laptop repairs and expert TV panel replacement — all with a 90-day warranty."
-      />
 
       <section className="bg-white py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

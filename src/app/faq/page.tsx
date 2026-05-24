@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { PageHero } from "@/components/sections/page-hero";
 import { FAQ } from "@/components/sections/faq";
 
 export const metadata: Metadata = {
@@ -11,13 +10,6 @@ export const metadata: Metadata = {
 export default function FAQPage() {
   return (
     <>
-      <PageHero
-        breadcrumb={[{ label: "FAQ" }]}
-        heading="Frequently Asked Questions"
-        subheading="Everything you need to know about screen repair in Kisii — before you bring in your device."
-        ctaLabel="Still Have a Question?"
-        ctaMessage="Hi Phillips ScreenCare, I have a question about screen repair"
-      />
 
       <FAQ />
 

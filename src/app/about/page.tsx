@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
   title: "About Phillips ScreenCare | OCA Screen Repair Experts in Kisii",
@@ -37,13 +36,6 @@ const VALUES = [
 export default function AboutPage() {
   return (
     <>
-      <PageHero
-        breadcrumb={[{ label: "About" }]}
-        heading="About Phillips ScreenCare"
-        subheading="Kisii's laptop and TV screen repair specialists. We use the Shenzhen ST-B100W OCA bonding machine — the same technology used by professional repair shops worldwide."
-        ctaLabel="Book a Repair"
-        ctaMessage="Hi Phillips ScreenCare, I'd like to book a screen repair"
-      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
