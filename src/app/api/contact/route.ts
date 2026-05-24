@@ -8,21 +8,27 @@ export async function POST(req: NextRequest) {
     const phone = data.get("phone")?.toString() ?? "";
     const device = data.get("device")?.toString() ?? "";
     const message = data.get("message")?.toString() ?? "";
-    const image = data.get("image");
 
     if (!name || !device) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    // TODO: Wire up an email service here (e.g. Resend).
-    // Example with Resend:
-    //   import { Resend } from "resend";
-    //   const resend = new Resend(process.env.RESEND_API_KEY);
-    //   await resend.emails.send({ from: "...", to: "repairs@bondfix.co.ke", subject: `New repair request from ${name}`, ... });
-    //
-    // The `image` variable is a File object if provided — upload to Cloudinary or attach directly.
+    const webhookUrl = process.env.MAKE_CONTACT_WEBHOOK_URL;
+    if (!webhookUrl) {
+      console.error("MAKE_CONTACT_WEBHOOK_URL is not set");
+      return NextResponse.json({ error: "Server misconfiguration" }, { status: 500 });
+    }
 
-    console.log("Contact form submission:", { name, phone, device, message, hasImage: !!image });
+    const res = await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, phone, device, message }),
+    });
+
+    if (!res.ok) {
+      console.error("Make.com webhook failed:", res.status, await res.text());
+      return NextResponse.json({ error: "Failed to send message" }, { status: 502 });
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {
