@@ -79,7 +79,7 @@ export function Hero() {
 
           {/* ── Right: video ── */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-sm overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10 sm:max-w-md">
+            <div className="w-full overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/10">
               <div className="aspect-video w-full">
                 <iframe
                   className="h-full w-full"
