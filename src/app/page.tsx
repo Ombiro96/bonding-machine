@@ -12,23 +12,14 @@ export const metadata: Metadata = {
     "Professional laptop and TV screen repair in Kisii. OCA bonding technology. Same-day laptop repairs, 90-day warranty. Call or WhatsApp for a free quote.",
 };
 
-function Divider() {
-  return <hr className="mx-auto max-w-6xl border-t border-slate-200 px-4 sm:px-6" />;
-}
-
 export default function HomePage() {
   return (
     <>
       <Hero />
-      <Divider />
       <Services />
-      <Divider />
       <WhyChooseUs />
-      <Divider />
       <Brands />
-      <Divider />
       <Coverage />
-      <Divider />
       <Testimonials />
     </>
   );

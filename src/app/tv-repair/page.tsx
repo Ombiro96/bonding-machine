@@ -47,7 +47,7 @@ const STEPS = [
 ];
 
 const PRICES = [
-  { size: "Small (32\"–43\")", examples: "Hisense, Syinix, Vitron, TCL", from: "KSh 5,000", days: "1–2 days" },
+  { size: "Small (32\"–43\")", examples: "Hisense, Syinix, Vitron, TCL", from: "KSh 2,500", days: "1–2 days" },
   { size: "Mid-Range (50\"–55\")", examples: "Samsung, LG, Sony, Skyworth", from: "KSh 9,000", days: "1–2 days", popular: true },
   { size: "Large (65\"+)", examples: "Samsung QLED, LG OLED, Sony Bravia", from: "KSh 15,000", days: "2–3 days" },
 ];
