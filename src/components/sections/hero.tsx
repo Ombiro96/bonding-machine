@@ -83,7 +83,7 @@ export function Hero() {
               <div className="aspect-video w-full">
                 <iframe
                   className="h-full w-full"
-                  src="https://www.youtube.com/embed/shQPvVF-ME8?autoplay=1&mute=1&loop=1&playlist=shQPvVF-ME8&controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/shQPvVF-ME8?rel=0&modestbranding=1"
                   allow="autoplay; encrypted-media"
                   allowFullScreen
                   title="Phillips ScreenCare — Screen Repair"
