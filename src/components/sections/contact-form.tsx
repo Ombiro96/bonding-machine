@@ -37,9 +37,30 @@ export function ContactForm() {
     const data = new FormData(e.currentTarget);
     if (file) data.set("image", file);
 
+    const MARKETING_KEYS = [
+      "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+      "gclid", "fbclid", "ttclid",
+    ];
+    MARKETING_KEYS.forEach((key) => {
+      const val = localStorage.getItem(key);
+      if (val) data.set(key, val);
+    });
+
     try {
       const res = await fetch("/api/contact", { method: "POST", body: data });
       if (!res.ok) throw new Error("server error");
+
+      // Fire Lead conversion events (no-op if pixels not loaded)
+      if (typeof window !== "undefined") {
+        const w = window as unknown as Record<string, unknown>;
+        if (typeof w.fbq === "function") (w.fbq as (...a: unknown[]) => void)("track", "Lead");
+        if (typeof w.gtag === "function") {
+          (w.gtag as (...a: unknown[]) => void)("event", "conversion", {
+            send_to: `${process.env.NEXT_PUBLIC_GOOGLE_ADS_ID}/${process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL}`,
+          });
+        }
+      }
+
       setStatus("success");
       formRef.current?.reset();
       setFile(null);
